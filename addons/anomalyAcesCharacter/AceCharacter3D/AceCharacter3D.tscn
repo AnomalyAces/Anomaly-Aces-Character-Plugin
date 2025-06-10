@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://coga20sjuh7ji"]
+
+[ext_resource type="Script" uid="uid://b1s7ogibe3b0k" path="res://addons/anomalyAcesCharacter/AceCharacter3D/ace_character_3d.gd" id="1_unvxu"]
+
+[node name="AceCharacter3d" type="CharacterBody3D"]
+script = ExtResource("1_unvxu")
+jump_velocity = null
+north_input = "move_up"
+east_input = "move_right"
+south_input = "move_down"
+west_input = "move_left"
