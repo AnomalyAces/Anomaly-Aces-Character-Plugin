@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://54yyvhi7vla1"]
+
+[ext_resource type="Script" uid="uid://lmr2fowiwmqc" path="res://addons/anomalyAcesCharacter/AceCharacterInput/AceCharacterFreeInput/ace_character_free_input.gd" id="1_swmv0"]
+
+[node name="AceCharacterFreeInput" type="Node"]
+script = ExtResource("1_swmv0")

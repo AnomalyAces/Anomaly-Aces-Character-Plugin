@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddf8ko8nxep64"]
+
+[ext_resource type="Script" uid="uid://21gka8wev5rw" path="res://addons/anomalyAcesCharacter/AceCharacterInput/AceCharacterBoardInput/ace_character_board_input.gd" id="1_w8opy"]
+
+[node name="AceCharacterBoardInput" type="Node"]
+script = ExtResource("1_w8opy")
