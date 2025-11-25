@@ -138,7 +138,7 @@ func _physics_process(delta: float) -> void:
 
 	if not _input_map_valid:
 		if _print_input_map_invalid_msg:
-			push_warning("Input Map not configured properly on %s. Checking for updates every 1 min..." % get_script().get_global_name())
+			AceLog.printLog(["Input Map not configured properly on %s. Checking for updates every 1 min..." % get_script().get_global_name()], AceLog.LOG_LEVEL.WARN)
 			_print_input_map_invalid_msg = false
 			get_tree().create_timer(60).timeout.connect(_on_print_timeout)
 		return

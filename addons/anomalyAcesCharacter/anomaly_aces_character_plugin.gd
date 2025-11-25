@@ -12,7 +12,7 @@ func _enter_tree() -> void:
 		preload("res://addons/anomalyAcesCharacter/AceCharacter.svg")
 	)
 
-	print("AceCharacter3D Entering Tree")
+	AceLog.printLog(["AceCharacter3D Entering Tree"])
 
 
 func _exit_tree() -> void:
